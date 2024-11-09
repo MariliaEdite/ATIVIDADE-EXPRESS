@@ -24,6 +24,6 @@ app.delete('/publicacao/', (req, res) => {
     res.send("Deletado")
 })
 
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log('Server started');
 });
